@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>DevSorteio</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./sort2.png" alt="dado-devClub">
+        <h1>DevSorteio</h1>
+    </header>
+
+    <main>
+
+        <h2>Sortear um número</h2>
+
+        <section>
+            <label>
+                <input id="min-input" type="number" placeholder="Entre">
+            </label>
+
+            <label>
+                <input id="max-input" type="number" placeholder="E">
+            </label>
+
+        </section>
+
+        <section>
+            <label id="result">Resultado:</label>
+            <input id="exit-input" type="number" readonly>
+        </section>
+
+        <button onclick="generateNumber()">Sortear</button>
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
